@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic3"
+    tools:context=".welcome">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="286dp"
+        android:layout_height="73dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="63dp"
+        android:layout_marginTop="23dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center"
+        android:lineSpacingExtra="8sp"
+        android:text="اهلا و سهلا"
+        android:textAllCaps="true"
+        android:textColor="#0C0C0C"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="136dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="139dp"
+        android:layout_marginTop="489dp"
+        android:backgroundTint="#CBA135"
+        android:text="log in"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="42dp"
+        android:gravity="center"
+        android:text="مغتربنا الغالي حياك في تطبيق مغترب... "
+        android:textColor="#0B0A0A"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="248dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="226dp"
+        android:gravity="center"
+        android:text="يرجى تسجيل الدخول "
+        android:textColor="#0C0C0C"
+        android:textSize="34sp" />
+</RelativeLayout>
